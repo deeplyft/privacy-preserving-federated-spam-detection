@@ -1,0 +1,22 @@
+{
+  "mode": "centralized",
+  "dataset": "Data/EmailSpamCollection-mini.csv",
+  "total_valid_samples": 850,
+  "test_samples": 170,
+  "accuracy": 0.9823529411764705,
+  "precision_spam": 0.9433962264150944,
+  "recall_spam": 1.0,
+  "f1_spam": 0.970873786407767,
+  "roc_auc": 0.999,
+  "confusion_matrix": [
+    [
+      117,
+      3
+    ],
+    [
+      0,
+      50
+    ]
+  ],
+  "training_samples": 680
+}
